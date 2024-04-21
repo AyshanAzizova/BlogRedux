@@ -1,0 +1,32 @@
+.memberShip img{
+width: 640px;
+}
+.memberShip{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+.membership_right{
+   display:flex;
+   justify-content:center;
+}
+.membership_right_content{
+
+    width:54%;
+    line-height:30px;
+}
+.circle{
+    position: absolute;
+    top: 11%;
+    right: -6%;
+    border: 30px solid #eeeefe;
+    border-radius: 50%;
+}
+.circleIn{
+    width: 1%;
+    border: 80px solid #ffffff;
+    border-radius: 50%;
+}
+/* color:f9f9ff */

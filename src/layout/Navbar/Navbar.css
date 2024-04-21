@@ -1,0 +1,30 @@
+nav img {
+    width: 120px;
+}
+.navbar {
+    width: 100%;
+    position: sticky;
+    z-index: 20000;
+}
+nav {
+    width: 86%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    padding: 16px 20px;
+    border-radius: 6px;
+    z-index: 2000;
+    box-shadow: 5px 5px 5px 5px solid lightgray;
+}
+nav ul:first-of-type {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+nav div:last-of-type {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

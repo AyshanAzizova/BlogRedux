@@ -1,0 +1,22 @@
+.purpleMap{
+    background-image: url(../../images/map.webp);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0 ;
+    background-color: rgba(139, 108, 234, 0.55);
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    width: 60%
+}
+.purpleMap h1{
+ font-size: 60px;
+}
+.purpleMap h4{
+    font-size: 24px;
+   }

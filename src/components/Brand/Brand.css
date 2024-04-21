@@ -1,0 +1,15 @@
+.brand{
+    text-align: center;
+    padding: 20px 0;
+}
+.brand img{
+    width: 80px;
+}
+.brand img:nth-child(3){
+    width: 140px;
+}
+.brand ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

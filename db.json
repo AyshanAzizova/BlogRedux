@@ -1,0 +1,41 @@
+{
+    "blogs": [
+      {
+        "id": "1",
+        "authorImage":"./src/images/author1.jpg",
+        "authorName":"Cosqun Kerimov",
+        "title":"1 Qızın Təbəssümü",
+        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
+        "blogImage": "https://kofe.al/storage/images/users_posts/1wtFgyIKxPvorJtbX9LwMvG2gCZMHASwFSXKBwt1.jpg",
+        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
+      },
+      {
+        "id": "2",
+        "authorImage":"./src/images/author1.jpg",
+        "authorName":"Cosqun Kerimov",
+        "title":"2 Qızın Təbəssümü",
+        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
+        "blogImage": "https://kofe.al/storage/images/users_posts/ki8myVKIHvfJIFM0jyrwCBcMRFTuNMqy9oKdTXgO.jpg",
+        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
+      },
+      {
+        "id": "3",
+        "authorImage":"./src/images/author1.jpg",
+        "authorName":"Cosqun Kerimov",
+        "title":"3 Qızın Təbəssümü",
+        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
+        "blogImage": "https://kofe.al/storage/images/users_posts/ax69iwr4r2mgvbCjmD3X5AIY2khndu6KYQafHbld.jpg",
+        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
+      },
+      {
+        "id": "4",
+        "authorImage":"./src/images/author1.jpg",
+        "authorName":"Cosqun Kerimov",
+        "title":"4 Qızın Təbəssümü",
+        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
+        "blogImage": "https://kofe.al/storage/images/users_posts/bLgLutXAcx3fpI8zyKODg8aBamsSUeJ1hSaluijD.jpg",
+        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
+      }
+    
+    ]
+  }

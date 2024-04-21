@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 0;
+}
+.footer img{
+    width: 240px;
+}
+.footer div:nth-child(1){
+    width: 40%;
+}
+.footer h3{
+    font-weight: 900;   
+}
+.footer a{
+    font-size: 16px;
+    color: #6B7385;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+hr{
+    color: rgb(255, 0, 0);
+}

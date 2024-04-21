@@ -1,0 +1,26 @@
+.mehsulXidmet{
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.mehsulXidmet img{
+    width: 640px;
+}
+.mehsulXidmet_left{
+display: flex;
+justify-content: center;
+align-items: end;
+padding-bottom: 80px;
+}
+.mehsulXidmet_right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.mehsulXidmet_left_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}

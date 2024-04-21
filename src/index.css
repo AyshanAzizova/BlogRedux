@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    width:86%;
+    margin: 0 auto;
+}
+/* body{
+     background-color: #f9f9ff; 
+} */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

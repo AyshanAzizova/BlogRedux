@@ -1,0 +1,30 @@
+.bexshish {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.bexshish_left img {
+  width: 630px;
+}
+.bexshish_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bexshish_right_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  width: 54%;
+}
+.bexshish_right_content button{
+width: max-content;
+padding: 10px 16px;
+}
+.bexshish_right_content img{
+    width: 100%;
+  }
+.bexshish_right_content p {
+  line-height: 28px;
+  font-size: 20px;
+}
