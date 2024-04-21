@@ -7,8 +7,13 @@ const FAQ = () => {
   return (
     <div>
       <Overlay/>
+     
       
-      <AccordionUsage />
+      <div className="faqAccord">
+      <h1>Sual-Cavab</h1>
+
+      <p>Esas > Sual-Cavab</p>
+      <AccordionUsage /></div>
     </div>
   );
 };

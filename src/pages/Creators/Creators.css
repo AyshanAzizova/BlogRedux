@@ -1,0 +1,15 @@
+.creators{
+    padding: 100px 0;
+}
+.creatorBack{
+    background: rgb(86,122,177);
+    background: linear-gradient(90deg, rgba(86,122,177,0.6139705882352942) 54%, rgba(152,95,250,0.8324579831932774) 100%, rgba(60,150,250,0.46551120448179273) 100%) !important;
+}
+.creators .cards{
+    margin:40px auto;
+    border-radius: 6px;
+}
+.creators{
+    width: 80%;
+    margin:  auto;
+}

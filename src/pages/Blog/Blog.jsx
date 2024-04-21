@@ -1,21 +1,30 @@
 import React, { useEffect } from "react";
 import "./Blog.css";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
-import blog_item_1 from '../../images/blog_items1.webp'
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBlogs } from "../../Slice/BlogsSlice";
+import { fetchBlogsCard } from "../../Slice/BlogsCardSlice";
 
 const Blog = () => {
   let dispatch = useDispatch();
 
   const Blogs = useSelector((state) => state.blogs.items);
+  const BlogsCard = useSelector((state) => state.blogsCard.items);
+
 
   useEffect(() => {
     dispatch(fetchBlogs());
   }, [dispatch]);
 
+  useEffect(() => {
+    dispatch(fetchBlogsCard());
+  }, [dispatch]);
 
+
+  function DetailPage() {
+    let {id} = useParams();
+  }
   return (
     <div className="blog">
       <div className="blog_container">
@@ -93,33 +102,23 @@ const Blog = () => {
         ))}
         <section className="blog_cards">
             <div className="blogs_container">
-              <div className="blogs_item">
-               <div className="blog_item_img">
-               <Link><img src={blog_item_1} alt="img"/></Link>
+             {
+              BlogsCard &&
+              BlogsCard.map((item,id)=>(
+                <div className="blogs_item">
+                <div className="blog_item_img">
+                <Link to={`/Bloq/${item.id}`} key={item.id}><img src={item.image} alt="img"/></Link>
+                </div>
+                <div className="blog_item_body">
+                <h2><Link>{item.title}</Link></h2>
+                <p>Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil</p>
+                <div><img src={item.author} alt={item.authorName}/><p>{item.authorName}</p></div>
+                </div>
                </div>
-               <div className="blog_item_body">
-               <h2><Link>Güzgü nağılı dinlə - Azərbaycan dilində uşaq kanalı @Ulduzluyol</Link></h2>
-               <p>Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil</p>
-               </div>
-              </div>
-              <div className="blogs_item">
-              <div className="blog_item_img">
-              <Link><img src={blog_item_1} alt="img"/></Link>
-              </div>
-              <div className="blog_item_body">
-              <h2><Link>Güzgü nağılı dinlə - Azərbaycan dilində uşaq kanalı @Ulduzluyol</Link></h2>
-              <p>Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil</p>
-              </div>
-             </div>
-             <div className="blogs_item">
-             <div className="blog_item_img">
-             <Link><img src={blog_item_1} alt="blog_item_1"/></Link>
-             </div>
-             <div className="blog_item_body">
-             <h2><Link>Güzgü nağılı dinlə - Azərbaycan dilində uşaq kanalı @Ulduzluyol</Link></h2>
-             <p>Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil</p>
-             </div>
-            </div>
+              ))
+             }
+      
+          
             </div>
         </section>
       </div>

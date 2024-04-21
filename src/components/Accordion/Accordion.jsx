@@ -9,8 +9,6 @@ import "./Accordion.css";
 export default function AccordionUsage() {
   return (
     <div className="accord">
-    <span className="faq">FAQ</span>
-    <h1>Sizi maraqlandıran suallar</h1>
     <div className="container">
       <Accordion className="ay">
         <AccordionSummary

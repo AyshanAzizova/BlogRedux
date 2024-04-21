@@ -3,8 +3,9 @@ nav img {
 }
 .navbar {
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 20000;
+    margin-top: 1px;
 }
 nav {
     width: 86%;
@@ -17,6 +18,32 @@ nav {
     border-radius: 6px;
     z-index: 2000;
     box-shadow: 5px 5px 5px 5px solid lightgray;
+}
+nav span{
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: large;
+
+}
+nav span:nth-of-type(1){
+    border: 2px solid rgba(133, 75, 133, 0.23);
+    color: black !important;
+}
+nav span:nth-of-type(2){
+    background: rgb(86,122,177);
+    background: linear-gradient(90deg, rgba(148, 86, 177, 0.614) 0%, rgba(221, 95, 250, 0.832) 100%, rgba(177, 60, 250, 0.466) 100%);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: large;
+    border: 1px solid none;
+}
+nav span:nth-of-type(1) a{
+    color: black;
+}
+nav span:nth-of-type(2) a{
+    color: white;
 }
 nav ul:first-of-type {
     display: flex;

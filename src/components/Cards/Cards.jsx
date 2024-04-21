@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Cards.css";
-import cardImg from "../../images/murad.webp";
 import { Link } from "react-router-dom";
 import { FiUser } from "react-icons/fi";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCreators } from "../../Slice/CreatorSlice";
 
 const Cards = () => {
+  let dispatch = useDispatch();
+
+  const Creators = useSelector((state)=>state.creators.items);
+
+  useEffect(() => {
+    dispatch(fetchCreators());
+  }, [dispatch]);
   return (
     <div className="cards">
       <div className="cards_container">
-        <div className="card">
+       {
+        Creators && 
+        Creators.map((item)=>(
+          <div className="card">
           <Link>
             <div className="card_img">
-              <img src={cardImg} alt="cardImg" />
+              <img src={item.image} alt="cardImg" />
             </div>
             <div className="card_body">
-              <h4>Murad Mammadov</h4>
-              <h6>Telimci,bloger</h6>
+              <h3>{item.title}</h3>
+              <h5>{item.type}</h5>
               <span><FiUser />
-              108 Destekci</span>
+              {item.count} Destekci</span>
               <ul>
               <li><Link></Link></li>
               <li><Link></Link></li>
@@ -26,60 +37,10 @@ const Cards = () => {
             </div>
           </Link>
         </div>
-        <div className="card">
-        <Link>
-          <div className="card_img">
-            <img src={cardImg} alt="cardImg" />
-          </div>
-          <div className="card_body">
-            <h4>Murad Mammadov</h4>
-            <h6>Telimci,bloger</h6>
-            <span><FiUser />
-            108 Destekci</span>
-            <ul>
-            <li><Link></Link></li>
-            <li><Link></Link></li>
-            <li><Link></Link></li>
-            </ul>
-          </div>
-        </Link>
-      </div>
-      <div className="card">
-      <Link>
-        <div className="card_img">
-          <img src={cardImg} alt="cardImg" />
-        </div>
-        <div className="card_body">
-          <h4>Murad Mammadov</h4>
-          <h6>Telimci,bloger</h6>
-          <span><FiUser />
-          108 Destekci</span>
-          <ul>
-          <li><Link></Link></li>
-          <li><Link></Link></li>
-          <li><Link></Link></li>
-          </ul>
-        </div>
-      </Link>
-    </div>
-    <div className="card">
-    <Link>
-      <div className="card_img">
-        <img src={cardImg} alt="cardImg" />
-      </div>
-      <div className="card_body">
-        <h4>Murad Mammadov</h4>
-        <h6>Telimci,bloger</h6>
-        <span><FiUser />
-        108 Destekci</span>
-        <ul>
-        <li><Link></Link></li>
-        <li><Link></Link></li>
-        <li><Link></Link></li>
-        </ul>
-      </div>
-    </Link>
-  </div>
+        ))
+       }
+       
+  
       </div>
     </div>
   );

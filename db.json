@@ -1,41 +1,131 @@
 {
     "blogs": [
       {
-        "id": "1",
+        "id": 1,
         "authorImage":"./src/images/author1.jpg",
         "authorName":"Cosqun Kerimov",
         "title":"1 Qızın Təbəssümü",
         "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
         "blogImage": "https://kofe.al/storage/images/users_posts/1wtFgyIKxPvorJtbX9LwMvG2gCZMHASwFSXKBwt1.jpg",
         "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
-      },
-      {
-        "id": "2",
-        "authorImage":"./src/images/author1.jpg",
-        "authorName":"Cosqun Kerimov",
-        "title":"2 Qızın Təbəssümü",
-        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
-        "blogImage": "https://kofe.al/storage/images/users_posts/ki8myVKIHvfJIFM0jyrwCBcMRFTuNMqy9oKdTXgO.jpg",
-        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
-      },
-      {
-        "id": "3",
-        "authorImage":"./src/images/author1.jpg",
-        "authorName":"Cosqun Kerimov",
-        "title":"3 Qızın Təbəssümü",
-        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
-        "blogImage": "https://kofe.al/storage/images/users_posts/ax69iwr4r2mgvbCjmD3X5AIY2khndu6KYQafHbld.jpg",
-        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
-      },
-      {
-        "id": "4",
-        "authorImage":"./src/images/author1.jpg",
-        "authorName":"Cosqun Kerimov",
-        "title":"4 Qızın Təbəssümü",
-        "text1":"İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur.",
-        "blogImage": "https://kofe.al/storage/images/users_posts/bLgLutXAcx3fpI8zyKODg8aBamsSUeJ1hSaluijD.jpg",
-        "text2":"Kassanın arxasında sarışın qız dayanıb. Bu, filmlərdə və ya instaqramda olan gözə girən sarışınlıq deyil. Əməliyyat və süni saç əkmələrlə eybəcərləşdirilmiş sarışınlıq deyil. Bu, həmən sarışınlıqdır ki, bir çox rəssam, şair onu axtarır. Daha çox rahatlıq və doğmalıq aurası yaradan sarışınlıqdır. Cavid özünü Necə də gözəl təbəssümü var fikrindən qaçıra bilmir. Saçlarının buruq olması, dərisinin bəyaz olması və ya gözlərinin nə qədər qəribə olması detallarını unudur, sadəcə təbəssümünə kilidlənir.      İntibah dövründə portret duruşları üçün namizəd olacaq bu xanım, kofe evində kassa arxasında durur. Kassa ətrafı artıq Florensiya kimi bir yerdir. Cavid gözlərini bir qədər başqa istiqamətə çevirməli olur. Bunu etmək zərurəti duyur. O, çoxdan subay deyil. Onun üçün bu tip baxışlar tabu sayılır. Hətta yaradıcı ruhlu biri olsan da, bir insana baxa biləcəyin xüsusi bir müddət var. O müddətdən sonra sənin kim olduğunun heç bir əhəmiyyəti yoxdur."
       }
     
+    ],
+    "blogsCard":[
+      {
+        "id":0,
+        "image":"https://kofe.al/storage/images/users_posts/UWjzVfB1kCOMEyd8du2ispFqrgFz9jwLHJS9KeyI.png",
+        "title":"Güzgü nağılı dinlə - Azərbaycan dilində uşaq kanalı @Ulduzluyol",
+        "text":"Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+      },
+      {
+        "id":1,
+        "image":"https://kofe.al/storage/images/users_posts/jfLqbzChKAX4MBQHokt0ad7ZGoLwOKqFW9mk42aN.png",
+        "title":"Evcik nağılı dinlə (Qısa nağıllar və hekayələr)",
+        "text":"Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+      },
+      {
+        "id":2,
+        "image":"https://kofe.al/storage/images/users_posts/OEZatjGu18pCtwGmi2Wk5viG4pemI73Ik120X0Ec.png",
+        "title":"Cəsur qoyun nağılı dinlə - Azərbaycan dilində uşaq kanalı @Ulduzluyol",
+        "text":"Başlıq: Güzgü nağılı | Zahid Xəlil | Nağıllar və Hekayələr Müəllif: Zahid Xəlil",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+      },
+      {
+        "id":3,
+        "image":"https://kofe.al/storage/images/users_posts/P7dOv8KWZMuP1QwpYCAo2QUkvMp8eujI0YWcknK1.png",
+        "title":"Suyun haqqı suya nağılı dinlə - @Ulduzluyol",
+        "text":"Başlıq: Suyun haqqı suya | Nağıllar | Ədaləti öyrədən hekayələr Səsləndirmə: danishankitab az saytından",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+      },
+      {
+        "id":4,
+        "image":"https://kofe.al/storage/images/users_posts/ge6z2DesXdhRLiYqeyTUQvT1lQqGByUjTXqsS7Ts.png",
+        "title":"Suyun haqqı suya nağılı dinlə - @Ulduzluyol",
+        "text":"Başlıq: Suyun haqqı suya | Nağıllar | Ədaləti öyrədən hekayələr Səsləndirmə: danishankitab az saytından",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+      },
+      {
+        "id":5,
+        "image":"https://kofe.al/storage/images/users_posts/ZmsVuoFybVKtCMtojVeyNWpwTNp7KJfXLWzeJlIK.jpg",
+        "title":"Xoruz və boyalar nağılı dinlə (Qısa nağıllar və hekayələr)",
+        "text":"Başlıq: Xoruz və boyalar nağılı | Dünya ədəbiyyatı | Nağıllar və Hekayələr Müəllif: Dünya ədəbiyyatı",
+        "author":"https://kofe.al/storage/images/users/65b8a574a0419.png",
+        "authorName":"Ulduzlu Yol"
+
+      }
+    ],
+    "creators":[
+      {
+        "id":1,
+        "image":"https://kofe.al/storage/images/users/660eba66f37b8.jpg",
+        "title":"Exile V Production",
+        "type":"Musiqi leyblı",
+        "count":1
+      },
+      {
+        "id":2,
+        "image":"https://kofe.al/storage/images/users/65afd12018db3.jpg",
+        "title":"ALIRZA",
+        "type":"Oyunlarla Əyləncə",
+        "count":21
+
+      },
+      {
+        "id":3,
+        "image":"https://kofe.al/storage/images/users/64cf6bf04d88d.png",
+        "title":"Triginta Septem",
+        "type":"Letspleyer, oyun yutuberi",
+        "count":10
+
+      },
+      {
+        "id":4,
+        "image":"https://kofe.al/storage/images/users/65b5469a87da9.png",
+        "title":"Ferid",
+        "type":"Oyun və Söhbət yayınları",
+        "count":10
+
+      },
+      {
+        "id":5,
+        "image":"https://kofe.al/storage/images/users/65afd12018db3.jpg",
+        "title":"ALIRZA",
+        "type":"Oyunlarla Əyləncə",
+        "count":21
+
+      },
+      {
+        "id":6,
+        "image":"https://kofe.al/storage/images/users/64cf6bf04d88d.png",
+        "title":"Triginta Septem",
+        "type":"Letspleyer, oyun yutuberi",
+        "count":10
+
+      }
+      ,
+      {
+        "id":7 ,
+        "image":"https://kofe.al/storage/images/users/660eba66f37b8.jpg",
+        "title":"Exile V Production",
+        "type":"Musiqi leyblı",
+        "count":1
+
+      },
+      {
+        "id":8,
+        "image":"https://kofe.al/storage/images/users/65afd12018db3.jpg",
+        "title":"Ferid",
+        "type":"Oyun və Söhbət yayınları",
+        "count":10
+
+      }
     ]
   }

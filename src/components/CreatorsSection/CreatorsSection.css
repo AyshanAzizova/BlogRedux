@@ -2,7 +2,8 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  width: 80%;
+  justify-content: space-between;
+  width: 86%;
   margin: 0 auto;
   padding: 100px 0px;
 }
@@ -33,7 +34,7 @@
 .creatorsSection .creatorsSectionItems {
   border-radius: 6px;
   position: relative;
-  width: 250px;
+  width: 22.5%;
   height: 70px;
   background-color: palevioletred;
   background-position: center;
