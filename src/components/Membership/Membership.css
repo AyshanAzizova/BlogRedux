@@ -8,6 +8,9 @@ width: 640px;
     align-items: center;
     
 }
+.memberShip button{
+    color: purple;
+}
 .membership_right{
    display:flex;
    justify-content:center;

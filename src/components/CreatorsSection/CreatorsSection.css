@@ -1,6 +1,6 @@
 .creatorsSection {
   display: flex;
-  gap: 30px;
+  row-gap: 30px;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 86%;
@@ -65,3 +65,15 @@
 .creatorsSectionItems:nth-of-type(8) {
   background-image: url(../../images/musician.png);
 }
+
+
+@media only screen and (max-width: 992px) {
+  .creatorsSection .creatorsSectionItems{
+       width: 48%;
+   }
+ }
+ @media only screen and (max-width: 576px) {
+  .creatorsSection .creatorsSectionItems{
+       width: 100%;
+   }
+ }

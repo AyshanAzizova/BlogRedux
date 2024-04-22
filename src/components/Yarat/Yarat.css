@@ -6,6 +6,7 @@
     background: rgb(86,122,177);
     background: linear-gradient(90deg, rgba(126, 146, 176, 0.614) 0%, rgba(213, 189, 255, 0.832) 100%, rgba(182, 216, 255, 0.466) 100%);
     height: 90vh;
+    padding-top: 100px;
 }
 .yarat_content{
     width: 60%;
@@ -30,3 +31,17 @@
     font-weight: 900;
     font-size: 20px;
 }
+@media only screen and (max-width: 768px) {
+    .yarat_content{
+        width: 90%;
+    }
+    .yarat{
+        padding-top: 50px;
+    }
+    .yarat h1{
+        font-size: 20px;
+    }
+    .yarat input{
+        width: 86%;
+    }
+   }

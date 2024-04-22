@@ -12,7 +12,7 @@ const Brand = () => {
   return (
   <div className='container'>
   <div className='brand'>
-  <h3>Bizdən danışırlar</h3>
+  <h3 style={{color:"gray",fontSize:"22px"}}>Bizdən danışırlar</h3>
   <ul>
   <li><Link><img src={brand1} alt='brand1'/></Link></li>
   <li><Link><img src={brand2} alt='brand2'/></Link></li>

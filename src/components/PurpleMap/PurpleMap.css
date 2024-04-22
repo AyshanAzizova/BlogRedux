@@ -4,13 +4,15 @@
     display: flex;
     justify-content: center;
     padding: 120px 0 ;
-    background-color:rgba(98, 61, 190, 0.612);
+    background-color:rgba(75, 11, 237, 0.76);
+    color: white;
+
 }
 .content{
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     text-align: center;
     width: 60%
 }
@@ -19,4 +21,19 @@
 }
 .purpleMap h4{
     font-size: 24px;
+}
+.purpleMap button{
+    padding: 20px 36px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+}
+@media only screen and (max-width: 768px) {
+  .purpleMap h1{
+    font-size: 30px;
+  }
+    .purpleMap h4{
+    font-size: 20px;
+   }
    }

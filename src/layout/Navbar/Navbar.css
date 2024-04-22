@@ -55,3 +55,25 @@ nav div:last-of-type {
     gap: 20px;
     align-items: center;
 }
+@media only screen and (max-width: 1002px) {
+  nav div:nth-of-type(2){
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 468px) {
+    nav ul{
+        gap: 10px !important;
+    }
+    nav a{
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (max-width: 378px) {
+    nav ul{
+        gap: 6px !important;
+        flex-direction: column;
+    }
+    nav a{
+      font-size: 12px !important;
+    }
+  }

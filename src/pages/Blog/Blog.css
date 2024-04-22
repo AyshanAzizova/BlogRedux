@@ -3,11 +3,13 @@
     background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(240, 242, 255) 10%);
 }
 .blog_container {
+    margin-top: 30px;
     width: 86%;
-    margin: 0 auto;
+    margin: auto;
     padding: 30px 0;
 }
 .blog_first_section {
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -128,4 +130,26 @@
 }
 .blog_item_body div img {
     width: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .blog_first_section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .blog_first_section div{
+        width: 100%;
+        flex-direction: column;
+        height: max-content;
+        margin-bottom: 10px;
+    }
+    .blogs_item{
+        width: 49%;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .blogs_item{
+        width: 100%;
+    }
 }

@@ -1,13 +1,16 @@
 .footer{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+justify-content: space-between;
     padding: 60px 0;
 }
 .footer img{
-    width: 240px;
+    width: 60%;
 }
 .footer div:nth-child(1){
+    margin-bottom: 20px;
     width: 40%;
 }
 .footer h3{
@@ -23,3 +26,14 @@
 hr{
     color: rgb(255, 0, 0);
 }
+
+@media only screen and (max-width: 992px) {
+  .footer  ul{
+        width: 48%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+   .footer div img{
+        width: 80%;
+    }
+  }
