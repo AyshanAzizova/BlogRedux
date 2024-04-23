@@ -8,8 +8,13 @@ width: 640px;
     align-items: center;
     
 }
-.memberShip button{
-    color: purple;
+.memberShip span{
+        width: max-content;
+        font-weight:700;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgba(54, 76, 185, 0.235);
+    color: rgb(53, 22, 176);
 }
 .membership_right{
    display:flex;
@@ -33,3 +38,9 @@ width: 640px;
     border-radius: 50%;
 }
 /* color:f9f9ff */
+@media only screen and (max-width: 1200px) {
+    .memberShip{
+      flex-direction: column;
+    }
+ 
+  }

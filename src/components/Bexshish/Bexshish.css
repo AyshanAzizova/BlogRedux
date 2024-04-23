@@ -28,3 +28,16 @@ padding: 10px 16px;
   line-height: 28px;
   font-size: 20px;
 }
+.bexshish_right_content span{
+  width: max-content;
+  font-weight:700;
+padding: 10px 20px;
+border-radius: 50px;
+background-color: rgba(54, 76, 185, 0.235);
+color: rgb(53, 22, 176);
+}
+@media only screen and (max-width: 1200px) {
+  .bexshish{
+    flex-direction: column;
+  }
+}

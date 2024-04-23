@@ -21,9 +21,12 @@ justify-content: space-between;
     color: #6B7385;
 }
 .footer-bottom{
-    padding: 20px 0;
-}
+width: 90%;
+margin: 0 auto;
+padding: 30px 0;}
 hr{
+    margin: 0 auto;
+    width: 90%;
     color: rgb(255, 0, 0);
 }
 

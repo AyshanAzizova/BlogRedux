@@ -14,7 +14,7 @@ const Bexshish = () => {
       </div>
       <div className="bexshish_right">
         <div className="bexshish_right_content">
-          <button>DƏSTƏK AL</button>
+          <span>DƏSTƏK AL</span>
           <h2>Bəxşiş qəbul edin</h2>
           <p>
             Kofe.al işlərinizi bəyənən insanlardan dəstək mesajları və bəxşiş

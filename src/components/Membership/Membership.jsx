@@ -14,7 +14,7 @@ const Membership = () => {
       </div>
       <div className="membership_right">
        <div className="membership_right_content">
-       <button>ABUNƏLİK</button>
+       <span>ABUNƏLİK</span>
        <h3>Abunəlik təklif edin</h3>
        <p style={{fontSize:"18px",color:'gray'}}>
          Aylıq abunəlik kanalı yaradaraq, izləyicilərinizin eksklüziv üzvlərə

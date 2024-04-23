@@ -135,7 +135,7 @@ const Blog = () => {
               ))}
           </div>
         </section>
-      </div>edd
+      </div>
     </div>
   );
 };
